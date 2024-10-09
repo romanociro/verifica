@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ITI Ferraris Napoli</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ITI FERRARIS NAPOLI</h1>
+        <p>Via Labriola Lotto G, Rione Scampia, Napoli</p>
+        
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'ambienti')">Ambienti di Apprendimento</button>
+            <button class="tab-button" onclick="openTab(event, 'orario')">Orario Scolastico</button>
+        </div>
+
+        <div id="ambienti" class="tab-content active">
+            <div id="ambienti-list"></div>
+        </div>
+        
+        <div id="orario" class="tab-content">
+            <div class="orario-container">
+                <h2>Orario Scolastico</h2>
+                <div id="orario-list"></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2024 ITI Ferraris Napoli. Tutti i diritti riservati.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

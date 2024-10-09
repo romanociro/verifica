@@ -1,0 +1,88 @@
+{
+    "nome_istituto": "ITI FERRARIS NAPOLI",
+    "indirizzo_scuola": "Via Labriola Lotto G, Rione Scampia, Napoli",
+    "ambienti_apprendimento": [
+      {
+        "tipo": "aula",
+        "nome_aula": "4Q",
+        "capienza": 14,
+        "risorse_aula": [
+          "Lavagna interattiva digitale"
+        ],
+        "orario_scolastico": {
+          "lunedi": "08:00-12:00",
+          "martedi": "08:00-12:00",
+          "mercoledi": "08:00-12:00",
+          "giovedi": "08:00-12:00",
+          "venerdi": "08:00-12:00",
+          "sabato": "10:00-12:00"
+        },
+        "docenti": {
+          "lunedi": {
+            "prima_ora": "Prof. Di Ieso",
+            "seconda_ora": "Prof. Di Ieso",
+            "terza_ora": "Prof. Molitierno",
+            "quarta_ora": "Prof. Mazzella"
+          },
+          "martedi": {
+            "prima_ora": "Prof. Ceccarini",
+            "seconda_ora": "Prof. Ceccarini",
+            "terza_ora": "Prof. Molitierno",
+            "quarta_ora": "Prof. Molitierno"
+          },
+          "mercoledi": {
+            "prima_ora": "Prof. Molitierno",
+            "seconda_ora": "Prof. Molitierno",
+            "terza_ora": "Prof. Molitierno",
+            "quarta_ora": "Prof. Di Ieso"
+          },
+          "giovedi": {
+            "prima_ora": "Prof. De Stefano",
+            "seconda_ora": "Prof. Ceccarini",
+            "terza_ora": "Prof. Ceccarini",
+            "quarta_ora": "Prof. Mazzella"
+          },
+          "venerdi": {
+            "prima_ora": "Prof. De Stefano",
+            "seconda_ora": "Prof. De Stefano",
+            "terza_ora": "Prof. Di Ieso",
+            "quarta_ora": "Prof. Greco"
+          },
+          "sabato": {
+            "rotazione": "Educazione Fisica"
+          }
+        }
+      },
+      {
+        "tipo": "laboratorio",
+        "nome": "Laboratorio Informatica",
+        "denominazione_laboratorio": "Lab37",
+        "risorse_laboratorio": [
+          "22 PC",
+          "Stampante",
+          "Lavagna"
+        ]
+      },
+      {
+        "tipo": "biblioteca",
+        "nome": "Biblioteca Centrale",
+        "capienza": 50,
+        "risorse_disponibili": [
+          "Libri di testo",
+          "Postazioni PC",
+          "Area studio silenziosa"
+        ]
+      },
+      {
+        "tipo": "spazio_studenti",
+        "nome": "Auditorium",
+        "capienza": 200,
+        "risorse_disponibili": [
+          "Impianto audio",
+          "Videoproiettore",
+          "Microfoni"
+        ]
+      }
+    ]
+  }
+  
